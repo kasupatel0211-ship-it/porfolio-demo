@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kashish Patel - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <nav>
+            <h2 class="logo hidden">Kashish Patel</h2>
+            <div class="menu-toggle" id="mobile-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Container for Dynamic Routing -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero reveal active">
+            <div class="hero-text">
+                <h1>Hello, I'm <span>Kashish Patel</span></h1>
+                <h3>CSE Student | Web development </h3>
+                <p>
+                    Passionate about technology, innovation, and continuously expanding technical knowledge.
+                <div class="buttons">
+                    <!-- Resume Download -->
+                    <a href="#" class="btn resume-trigger" id="hero-resume-btn">
+                        <i class="fa-solid fa-cloud-arrow-down"></i> Download Resume
+                    </a>
+
+                    <a href="projects.html" class="btn2">
+                        View Projects <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <!-- Social Handles -->
+                    <a href="https://github.com/kasupatel0211-ship-it" target="_blank" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/kashish-patel-b0967933a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                    <!-- LeetCode -->
+                    <a href="https://leetcode.com/u/kashish0211/" target="_blank" aria-label="LeetCode">
+                        <i class="fa-solid fa-code"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="image/profile.jpg" alt="Kashish Patel Profile Picture">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Kashish Patel. Made with <span>&hearts;</span> in India.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

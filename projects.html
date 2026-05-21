@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Kashish Patel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <nav>
+            <h2 class="logo">Kashish Patel</h2>
+            <div class="menu-toggle" id="mobile-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Container for Dynamic Routing -->
+    <main id="main-content">
+        <section class="page-section reveal active">
+            <h1>My Projects</h1>
+            
+            <div class="project-grid">
+                <!-- Ask MSU -->
+                <div class="project-card">
+                    <div class="project-banner">
+                        <!-- AI Chatbot SVG Illustration -->
+                        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="100" height="100" rx="10" fill="url(#bgGrad1)"/>
+                            <circle cx="50" cy="45" r="18" stroke="#38bdf8" stroke-width="2" stroke-dasharray="3 3"/>
+                            <path d="M40 45C40 39.4772 44.4772 35 50 35C55.5228 35 60 39.4772 60 45C60 50.5228 55.5228 55 50 55C44.4772 55 40 50.5228 40 45Z" fill="#38bdf8" fill-opacity="0.1" stroke="#38bdf8" stroke-width="2.5"/>
+                            <path d="M46 45H54M50 41V49" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M30 75C30 66.7157 38.9543 60 50 60C61.0457 60 70 66.7157 70 75" stroke="#a855f7" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="50" cy="18" r="4" fill="#a855f7" />
+                            <line x1="50" y1="22" x2="50" y2="35" stroke="#a855f7" stroke-width="2" />
+                            <defs>
+                                <linearGradient id="bgGrad1" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#0b1329"/>
+                                    <stop offset="1" stop-color="#1e1b4b"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="project-details">
+                        <h2>Ask MSU</h2>
+                        <p>
+                            AI chatbot for university related queries and support, designed to parse user questions and deliver instant campus assistance.
+                        </p>
+                        <div class="project-tags">
+                            <span>AI Chatbot</span>
+                            <span>NLP</span>
+                            <span>API</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- UniTrack -->
+                <div class="project-card">
+                    <div class="project-banner">
+                        <!-- Tracking System SVG Illustration -->
+                        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="100" height="100" rx="10" fill="url(#bgGrad2)"/>
+                            <path d="M25 50 H75 M50 25 V75" stroke="#64748b" stroke-width="1" stroke-dasharray="4 4"/>
+                            <circle cx="50" cy="50" r="25" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="2 2"/>
+                            <circle cx="50" cy="50" r="10" stroke="#38bdf8" stroke-width="2" fill="#38bdf8" fill-opacity="0.1"/>
+                            <circle cx="50" cy="50" r="3" fill="#38bdf8"/>
+                            <path d="M30 35 L40 45 L50 35" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <rect x="62" y="30" width="16" height="10" rx="3" fill="#a855f7" fill-opacity="0.2" stroke="#a855f7" stroke-width="2"/>
+                            <circle cx="70" cy="43" r="2" fill="#cbd5e1"/>
+                            <circle cx="70" cy="43" r="4" stroke="#a855f7" stroke-width="1"/>
+                            <defs>
+                                <linearGradient id="bgGrad2" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#061727"/>
+                                    <stop offset="1" stop-color="#111827"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="project-details">
+                        <h2>UniTrack</h2>
+                        <p>
+                            University bus arrival and real-time tracking system to streamline student commutes and monitor routes dynamically.
+                        </p>
+                        <div class="project-tags">
+                            <span>Real-time Tracking</span>
+                            <span>Maps API</span>
+                            <span>Node.js</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Amazon Clone -->
+                <div class="project-card">
+                    <div class="project-banner">
+                        <!-- Amazon Clone SVG Illustration -->
+                        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="100" height="100" rx="10" fill="url(#bgGrad3)"/>
+                            <rect x="25" y="30" width="50" height="35" rx="5" fill="#38bdf8" fill-opacity="0.1" stroke="#38bdf8" stroke-width="2"/>
+                            <line x1="30" y1="40" x2="70" y2="40" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round"/>
+                            <line x1="30" y1="48" x2="55" y2="48" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M35 70 Q50 82 65 70" stroke="#f97316" stroke-width="3" stroke-linecap="round"/>
+                            <path d="M63 74 L66 69 L60 69" fill="#f97316" stroke="#f97316" stroke-width="1"/>
+                            <defs>
+                                <linearGradient id="bgGrad3" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#022c22"/>
+                                    <stop offset="1" stop-color="#0f172a"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="project-details">
+                        <h2>Amazon Clone</h2>
+                        <p>
+                            Modern Amazon frontend clone with clean layouts, navigation panels, and interactive hover effects using pure HTML and CSS.
+                        </p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>E-Commerce UI</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Netflix Clone -->
+                <div class="project-card">
+                    <div class="project-banner">
+                        <!-- Netflix Clone SVG Illustration -->
+                        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="100" height="100" rx="10" fill="url(#bgGrad4)"/>
+                            <path d="M35 30 V70 H43 V45 L57 70 H65 V30 H57 V55 L43 30 H35 Z" fill="#ef4444" filter="drop-shadow(0 0 8px rgba(239,68,68,0.7))"/>
+                            <circle cx="50" cy="50" r="28" stroke="#ef4444" stroke-width="1.5" stroke-opacity="0.3"/>
+                            <path d="M46 45 L58 50 L46 55 Z" fill="#cbd5e1" stroke="#cbd5e1" stroke-width="2" stroke-linejoin="round"/>
+                            <defs>
+                                <linearGradient id="bgGrad4" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#180202"/>
+                                    <stop offset="1" stop-color="#0b0f19"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="project-details">
+                        <h2>Netflix Clone</h2>
+                        <p>
+                            Responsive Netflix UI clone featuring modern design accents, carousel frameworks, and styled media grids.
+                        </p>
+                        <div class="project-tags">
+                            
+                            <span>CSS Grid</span>
+                            
+                            <span>Hover Effects</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Kashish Patel. Made with <span>&hearts;</span> in India.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
