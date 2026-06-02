@@ -252,7 +252,7 @@ function initMobileMenu() {
    ========================================== */
 function initCardTilts() {
     if (window.innerWidth < 768) return; // Avoid processing on mobile/tablet screens
-    const cards = document.querySelectorAll('.project-card, .edu-card');
+    const cards = document.querySelectorAll('.project-card, .edu-card, .achievement-card');
     cards.forEach(card => {
         card.addEventListener('mousemove', (e) => {
             const rect = card.getBoundingClientRect();
